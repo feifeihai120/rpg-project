@@ -2851,8 +2851,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.0013520982, y: -0.9165939, z: 0.399806, w: 0.0030035903}
-  m_LocalPosition: {x: 0.79225373, y: 17.306831, z: 18.034626}
+  m_LocalRotation: {x: -0.0032060365, y: -0.9482987, z: 0.31721514, w: -0.00969056}
+  m_LocalPosition: {x: -0.39781475, y: 10.492741, z: 14.654743}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1144815934}
@@ -4746,11 +4746,35 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 460534, guid: d556d30cab334dd449000218c87322ef, type: 3}
   m_PrefabInstance: {fileID: 1967508810}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2063024921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5798261333578740008, guid: e22289e07c1887b45a1fd4b7283b28e6, type: 3}
+  m_PrefabInstance: {fileID: 1788781712238122396}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2063024922 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7821419216213938482, guid: e22289e07c1887b45a1fd4b7283b28e6, type: 3}
   m_PrefabInstance: {fileID: 1788781712238122396}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &2063024923
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063024921}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &2100944925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4966,15 +4990,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7821419216213938482, guid: e22289e07c1887b45a1fd4b7283b28e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7821419216213938482, guid: e22289e07c1887b45a1fd4b7283b28e6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7821419216213938482, guid: e22289e07c1887b45a1fd4b7283b28e6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7821419216213938482, guid: e22289e07c1887b45a1fd4b7283b28e6, type: 3}
       propertyPath: m_LocalRotation.w
