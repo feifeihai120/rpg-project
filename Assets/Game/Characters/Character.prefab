@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4133082691121005134}
   - component: {fileID: 6000576983458223034}
   - component: {fileID: 500968082693465425}
+  - component: {fileID: 8608207116762387263}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -171,4 +172,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 119c6b08097dfe54dadbc1e34384aec8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  healthPoints: 100
+--- !u!114 &8608207116762387263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5798261333578740008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b7e25b0ac36d84891610a4f7de602f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseDistance: 5
