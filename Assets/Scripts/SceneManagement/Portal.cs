@@ -45,9 +45,7 @@ namespace RPG.SceneManagement
             wrapper.Save();
             
             yield return SceneManager.LoadSceneAsync(sceneToLoad);
-            yield return fader.FadeIn(fadeInTime);
 
-            // Load current level
             wrapper.Load();
 
             Portal otherPortal = GetOtherPortal();
