@@ -19,9 +19,13 @@ PrefabInstance:
       propertyPath: m_Parameters.colorGradient.key0.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5880119807347809491, guid: c1158e8b3eaca784488dc511a6176f79, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 4760853295432218845, guid: 09a056b314f143546b1d97a8a2c6d9d9, type: 3}
     - target: {fileID: 7576335341887000266, guid: c1158e8b3eaca784488dc511a6176f79, type: 3}
       propertyPath: m_Name
-      value: ArrowProjectile Red
+      value: Arrow Projectile Red
       objectReference: {fileID: 0}
     - target: {fileID: 7624947540033513991, guid: c1158e8b3eaca784488dc511a6176f79, type: 3}
       propertyPath: m_RootOrder
