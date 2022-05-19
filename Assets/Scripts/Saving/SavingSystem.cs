@@ -37,6 +37,11 @@ namespace RPG.Saving
             RestoreState(LoadFile(saveFile));
         }
 
+        public void Delete(string saveFile)
+        {
+            File.Delete(GetPathFromSaveFile(saveFile));
+        }
+
         private void SaveFile(string saveFile, object state)
         {
             string path = GetPathFromSaveFile(saveFile);
@@ -60,11 +65,6 @@ namespace RPG.Saving
                 BinaryFormatter formatter = new BinaryFormatter();
                 return (Dictionary<string, object>)formatter.Deserialize(stream);
             }
-        }
-
-        public void Delete(string saveFile)
-        {
-            File.Delete(GetPathFromSaveFile(saveFile));
         }
 
         private void CaptureState(Dictionary<string, object> state)
