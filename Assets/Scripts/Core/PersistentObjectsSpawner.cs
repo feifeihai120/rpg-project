@@ -16,6 +16,10 @@ namespace RPG.Core
             hasSpawned = true;
         }
 
+        private void Start() {
+            
+        }
+
         private void SpawnPersistentObject()
         {
             GameObject persistentObject = Instantiate(persistentObjectPrefab);

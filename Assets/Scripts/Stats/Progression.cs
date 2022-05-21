@@ -25,6 +25,11 @@ namespace RPG.Stats
             return levels[level - 1];
         }
 
+        internal int GetStat(Stat experienceToLevelUp, CharacterClass characterClass)
+        {
+            throw new NotImplementedException();
+        }
+
         public int GetLevels(Stat stat, CharacterClass characterClass)
         {
             BuildLookup();
