@@ -105,9 +105,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ece047d59d72c8d4b8d64c525013ec80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 0
+  sceneToLoad: 1
   spawnPoint: {fileID: 8638541041999006358}
   destination: 0
-  fadeOutTime: 2
-  fadeInTime: 1
+  fadeOutTime: 0.5
+  fadeInTime: 2
   fadeWaitTime: 0.5
