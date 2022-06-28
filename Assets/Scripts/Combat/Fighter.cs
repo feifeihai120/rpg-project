@@ -76,7 +76,7 @@ namespace RPG.Combat
         private void AttackBehaviour()
         {
             transform.LookAt(target.transform);
-            if (timeSinceLastAttack > timeBetweenAttacks)
+            if (timeSinceLastAttack > currentWeaponConfig.GetWeaponDelay())
             {
                 // This will trigger the Hit() event.
                 TriggerAttack();
