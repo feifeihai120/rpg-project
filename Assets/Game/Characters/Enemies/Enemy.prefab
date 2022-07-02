@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 470722581, guid: f92d83f8fcfa7f841aec319cb3424947, type: 3}
+      propertyPath: maxSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3400419128819718250, guid: f92d83f8fcfa7f841aec319cb3424947, type: 3}
       propertyPath: healthPoints
       value: 20
@@ -29,7 +33,7 @@ PrefabInstance:
       objectReference: {fileID: 2308582750419775851}
     - target: {fileID: 5508269690624805102, guid: f92d83f8fcfa7f841aec319cb3424947, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5837565591554967843, guid: f92d83f8fcfa7f841aec319cb3424947, type: 3}
       propertyPath: m_Name
@@ -45,6 +49,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7353880908237580450, guid: f92d83f8fcfa7f841aec319cb3424947, type: 3}
       propertyPath: characterClass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353880908237580450, guid: f92d83f8fcfa7f841aec319cb3424947, type: 3}
+      propertyPath: shouldUseModifiers
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8755051089564253105, guid: f92d83f8fcfa7f841aec319cb3424947, type: 3}
@@ -145,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseDistance: 5
-  suspicionTime: 5
+  suspicionTime: 20
   patrolPath: {fileID: 0}
   waypointTolerance: 1
   waypointDwellTime: 3
@@ -267,6 +275,10 @@ PrefabInstance:
     - target: {fileID: 1007877961387283950, guid: b03d47d94852cc04d9c17d134c96e293, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162776964705943272, guid: b03d47d94852cc04d9c17d134c96e293, type: 3}
+      propertyPath: healthComponent
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5223136019183081235, guid: b03d47d94852cc04d9c17d134c96e293, type: 3}
       propertyPath: m_Name

@@ -16,11 +16,13 @@ namespace RPG.Combat
         [SerializeField] Transform rightHandTransform = null;
         [SerializeField] Transform leftHandTransform = null;
         [SerializeField] WeaponConfig defaultWeapon = null;
+        //[SerializeField] public bool hasAGateKey = false;
 
         Health target;
         float timeSinceLastAttack = Mathf.Infinity;
         WeaponConfig currentWeaponConfig;
         LazyValue<Weapon> currentWeapon;
+        WeaponPickup weaponPickup;
 
         private void Awake() {
             currentWeaponConfig = defaultWeapon;
@@ -39,6 +41,12 @@ namespace RPG.Combat
 
         private void Update()
         {
+            /*if (SetAGateKey(FindObjectOfType<WeaponPickup>().isAGateKey == true))
+            {
+                hasAGateKey = true;
+                return;
+            }*/
+            weaponPickup = GetComponent<WeaponPickup>();
             timeSinceLastAttack += Time.deltaTime;
                 
             if(target == null) return;
@@ -55,6 +63,17 @@ namespace RPG.Combat
                 AttackBehaviour();
             }
         }
+
+        /*public bool SetAGateKey(bool isAGateKeyLocal)
+        {
+            if (isAGateKeyLocal == true)
+            {
+                hasAGateKey = true;
+                print("SetAGateKey - 1");
+            }
+
+            return hasAGateKey;
+        }*/
 
         public void EquipWeapon(WeaponConfig weapon)
         {

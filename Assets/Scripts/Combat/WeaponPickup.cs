@@ -10,9 +10,13 @@ namespace RPG.Combat
         [SerializeField] WeaponConfig weapon = null;
         [SerializeField] float healthToRestore = 0;
         [SerializeField] float respawnTime = 5f;
+        //[SerializeField] bool isAGateKey = false;
+
+        Fighter fighter;
 
         private void OnTriggerEnter(Collider other)
         {
+            // Podnoszenie przedmiotu, gdy gracz w niego wejdzie
             if (other.gameObject.tag == "Player")
             {
                 Pickup(other.gameObject);
@@ -44,6 +48,7 @@ namespace RPG.Combat
             GetComponent<Collider>().enabled = shouldShow;
             foreach (Transform child in transform)
             {
+                // Umożliwia podniesienie przedmiotu po najechaniu na niego (zmiana kursora na skrzynkę) i kliknięciu LPM
                 child.gameObject.SetActive(shouldShow);
             }
         }
