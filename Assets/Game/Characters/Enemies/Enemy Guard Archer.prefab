@@ -25,7 +25,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6293249910867095286, guid: db30c33f71508274ab4a5fe56a5d6bea, type: 3}
       propertyPath: suspicionTime
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7725725058851560658, guid: db30c33f71508274ab4a5fe56a5d6bea, type: 3}
       propertyPath: m_RootOrder
