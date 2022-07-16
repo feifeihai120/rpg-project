@@ -27,6 +27,7 @@ namespace RPG.Combat
         private void Awake() {
             currentWeaponConfig = defaultWeapon;
             currentWeapon = new LazyValue<Weapon>(SetupDefaultWeapon);
+            //Debug.Log("2 do potęgi 24 to " + Math.Pow(2, 24) );
         }
 
         private Weapon SetupDefaultWeapon()
